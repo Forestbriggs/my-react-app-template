@@ -8,9 +8,7 @@ This repo exists to give a solid base template to start a React app using Vite.
 
 * ESLint runs on build
 
-* Browser auto opens project on ```npm run dev``` for convenience (To disable comment out / delete ```    server: {
-        open: true
-    }``` from vite.config.js)
+* Browser auto opens project on ```npm run dev``` for convenience (To disable comment out / delete ```server: { open: true }``` from vite.config.js)
 
 * ESLint configured to not require prop-types (If using TypeScript delete ```'react/prop-types': 'off'``` from .eslintrc.cjs)
 
@@ -21,7 +19,7 @@ npx tiged Forestbriggs/my-react-app-template#main <new-project-name>
 ```
 
 Make sure to replace ```<new-project-name>```
-with your own projects name.
+with your own project name.
 
 ## How to set up / install
 
@@ -35,4 +33,6 @@ npm run dev
 
 Change this README, the title in index.html, and the "name" in package.json to your respective needs.
 
-Now you have a blank ready to use Vite React template! Happy coding!
+Once you have added files to the 'public' directory go ahead and delete the .keep file.
+
+Now you have a blank ready-to-use Vite React template! Happy coding!
